@@ -17,6 +17,14 @@ $(call inherit-product, device/xiaomi/fog/device.mk)
 # Package Type (Choose Vanilla/GAPPS)
 RICE_PACKAGE_TYPE := Gapps
 
+# RiceFlags
+RICE_CHIPSET := Snapdragon 680
+SUSHI_BOOTANIMATION := 720
+TARGET_BUILD_GRAPHENEOS_CAMERA := true
+TARGET_ENABLE_BLUR := true
+TARGET_HAS_UDFPS := true
+TARGET_USE_PIXEL_FINGERPRINT := true
+
 PRODUCT_NAME := lineage_fog
 PRODUCT_DEVICE := fog
 PRODUCT_MANUFACTURER := Xiaomi
